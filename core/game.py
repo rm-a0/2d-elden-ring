@@ -1,24 +1,24 @@
 import pygame
 import sys
 
-from core.constants import *                    # Constant variables
-from core.settings import *                 # Settings
+from core.constants import *                            # Constant variables
+from core.settings import *                             # Settings
 
-from utils.calc import *                    # Import utilities for calculating
+from utils.calc import *                                # Import utilities for calculating
 
 from objects.items.item_factory import ItemFactory
 from objects.weapons.weapon_factory import WeaponFactory
-from objects.entities.player import Player              # Player class
-from objects.entities.enemies.enemy import Enemy                # Enemy class
-from objects.items.consumable import Flask           # Flask class
-from objects.weapons.weapon import Weapon              # Weapon class
+from objects.entities.player import Player
+from objects.entities.enemies.enemy import Enemy
+from objects.items.consumable import Flask
+from objects.weapons.weapon import Weapon
 
-from ui.ui_factory import UiFactory         # Ui factory class
-from ui.bar import Bar                     # Bar classes
-from ui.icon import Icon                   # Icon class
-from ui.slot import Slot                   # Slot class
+from ui.ui_factory import UiFactory
+from ui.bar import Bar
+from ui.icon import Icon
+from ui.slot import Slot
 
-from build.level import Level              # Level class
+from build.level import Level
 
 class Game:
     def __init__(self):
