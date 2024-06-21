@@ -1,5 +1,5 @@
 # Overview
-Simple game engine and 2D game inspired by Dark Souls, Sekiro and Hollow Knight in Metroidvania style.
+Simple game engine and 2D game inspired by Dark Souls and Hollow Knight in Metroidvania style.
 
 # Table of Contents
 - [Description](#description)
