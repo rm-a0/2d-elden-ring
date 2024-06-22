@@ -9,6 +9,8 @@ Simple game engine and 2D game inspired by Dark Souls and Hollow Knight in Metro
 - [Bugs](#bugs-and-issues)
 
 # Description
+This is a simple prototype for a game that I'm working on in Unity. \
+Main goal of this project was to get familiar with the game structure, loop, objects, scripts and engine implementation.
 ## File Structure
 ```
 ├── main.py             - executable script             
